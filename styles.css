@@ -1,1 +1,60 @@
 /*  your css code here. If applicable */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+.card {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.title {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.pricing {
+    font-size: 18px;
+    color: #ff6600;
+    margin: 5px 0;
+}
+
+.description {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.buy-now {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-now:hover {
+    background-color: #e64d00;
+}
